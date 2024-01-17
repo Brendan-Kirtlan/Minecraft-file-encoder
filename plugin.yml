@@ -1,0 +1,11 @@
+name: file_encode
+version: '${project.version}'
+main: me.chuggy.file_encode.File_encode
+api-version: '1.20'
+commands:
+  generateblocks:
+    description: Generate blocks based on binary data
+    usage: /generateblocks
+  decodeblocks:
+    description: Generate file based on blocks in world
+    usage: /decodeblocks
